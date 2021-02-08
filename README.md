@@ -1,6 +1,6 @@
 # Curvestone home assignment
 
-This is a curvestone home assignment.
+This is a Curvestone home assignment.
 
 It's a fullstack app consisting of reactjs frontend (bootstrapped from create-react-app) and basic express.js backend.
 
@@ -8,7 +8,7 @@ It's an application where user can input his initial portfolio value, date and p
 
 After submitting, a query is being made to backend where external api (marketstack) is requested for values for those stocks.
 Returned data is being manipulated on server side, returning user only the values he needs - aggregated values for 7-days periods
-and stock names.
+and stock names. Also, potential current portolio value is calculated based on the above assumptions.
 
 Back on client side, current portfolio value is being calculated and displayed to user.
 
@@ -27,7 +27,9 @@ chosen to display the data is simple line graph
 ## To run the project locally
 
 `yarn` installs all required packages as incluced in package.json
+
 `yarn start` runs front-end
+
 `yarn server` runs node.js backend
 
 ## Available Scripts
