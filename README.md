@@ -1,6 +1,4 @@
-# Curvestone home assignment
-
-This is a Curvestone home assignment.
+# Stock market analyzer for given stocks
 
 It's a fullstack app consisting of reactjs frontend (bootstrapped from create-react-app) and basic express.js backend.
 
